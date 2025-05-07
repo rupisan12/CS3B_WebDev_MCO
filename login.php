@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="sign.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    />
+    <script
+      src="https://kit.fontawesome.com/04b3229b62.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="user-chat sign-log">
+      <div class="wrapper-lay">
+        <section class="form sign-up">
+          <header><h2>Sign in</h2></header>
+          <form action="#" autocomplete="off">
+            <div class="error-warn">This error message</div>
+       
+            <div class="text-field input-user">
+              <input
+                type="text"
+                name="username"
+                placeholder="Enter your username"
+              />
+            </div>
+            <div class="text-field input-user">
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your passsword"
+              />
+              <i class="fas fa-eye"></i>
+            </div>
+            <div class="text-field btn">
+              <input type="submit" value="Sign In Now" />
+        
+            </div>
+          </form>
+          <div class="link-log">
+            Don't have account? <a href="sign_up.php">Sign Up now</a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="js/pass_show.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
